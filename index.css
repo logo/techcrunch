@@ -1,0 +1,21 @@
+
+/**
+ * TechCrunch logo.
+ */
+
+.logo[data-logo="TechCrunch"] {
+  width: 0;
+}
+
+.logo[data-logo="TechCrunch"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="TechCrunch"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="TechCrunch"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
